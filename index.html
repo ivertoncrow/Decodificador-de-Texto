@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./reset.css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Decodificador</title>
+  </head>
+  <body>
+    <header>
+      <p><img src="./src/Criptografia2.png" alt="logo" /></p>
+    </header>
+
+    <main>
+      <section class="area">
+        <div class="caixas">
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Digite o texto com todas as letras minusculas e sem acentos"
+            required
+            autofocus
+          ></textarea>
+          <div class="botoesmobile">
+            <button onclick="codificar()" id="cript" class="botoesprincipais">
+              codificar
+            </button>
+            <button
+              onclick="decodificar()"
+              id="decript"
+              class="botoesprincipais"
+            >
+              decodificar
+            </button>
+          </div>
+        </div>
+        <div class="caixas">
+          <textarea
+            name="solucao"
+            id="solucao"
+            placeholder="Solução"
+            readonly
+          ></textarea>
+          <div class="botoesmobile">
+            <button onclick="copiar()" id="copiar" class="botoesprincipais">
+              copiar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="./script.js" defer></script>
+    <footer>
+      <div>
+        <p class="copyright">&copy;2022 CodeCrow</p>
+      </div>
+    </footer>
+  </body>
+</html>
