@@ -112,14 +112,14 @@ body,
   /* Main */
 
   main {
-    margin: 5em 0 0 3%;
+    margin: 5em 0 5em 3%;
   }
 
   textarea {
     color: #ffffff;
     padding: 3em;
     text-transform: uppercase;
-    resize: none; 
+    resize: none;
   }
 
   #mensagem {
@@ -198,7 +198,7 @@ body,
   /* Main */
 
   main {
-    margin: 5em 0 5em 15em;
+    margin: 5em 0 5em 20%;
   }
 
   textarea {
