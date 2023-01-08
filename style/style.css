@@ -5,7 +5,7 @@ body,
   font-family: "Ubuntu", sans-serif;
 }
 
-@media screen and (min-device-width: 1920px) and (max-device-width: 2440px) {
+@media screen and (min-device-width: 1901px) {
   body {
     background: #111111;
     background-size: 1920px 1080px;
@@ -96,7 +96,7 @@ body,
     font-weight: bold;
   }
 }
-@media screen and (min-device-width: 1360px) and (max-device-width: 1919px) {
+@media screen and (min-device-width: 1500px) and (max-device-width: 1900px) {
   body {
     background: #111111;
     background-size: 1920px 1080px;
@@ -112,7 +112,7 @@ body,
   /* Main */
 
   main {
-    margin: 5em 0 0 3%;
+    margin: 5em 0 0 4%;
   }
 
   textarea {
@@ -127,7 +127,7 @@ body,
     background: #222222;
     border: none;
     border-radius: 1em;
-    width: 49em;
+    width: 40em;
     height: 24em;
     transform: none;
   }
@@ -136,7 +136,7 @@ body,
     background: #444444;
     border: none;
     border-radius: 1em;
-    width: 49em;
+    width: 40em;
     height: 24em;
     transform: none;
   }
@@ -183,7 +183,7 @@ body,
     color: #ffffff;
   }
 }
-@media screen and (min-device-width: 1030px) and (max-device-width: 1359px) {
+@media screen and (min-device-width: 1030px) and (max-device-width: 1500px) {
   body {
     background: #111111;
     background-size: 1280px 1024px;
