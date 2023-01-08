@@ -5,7 +5,7 @@ body,
   font-family: "Ubuntu", sans-serif;
 }
 
-@media screen and (min-device-width: 1901px) {
+@media only screen and (min-device-width: 1901px) {
   body {
     background: #111111;
     background-size: 1920px 1080px;
@@ -96,7 +96,7 @@ body,
     font-weight: bold;
   }
 }
-@media screen and (min-device-width: 1361px) and (max-device-width: 1900px) {
+@media only screen and (min-device-width: 1361px) and (max-device-width: 1900px) {
   body {
     background: #111111;
     background-size: 1920px 1080px;
@@ -183,7 +183,7 @@ body,
     color: #ffffff;
   }
 }
-@media screen and (min-device-width: 1030px) and (max-device-width: 1360px) {
+@media only screen and (min-device-width: 1030px) and (max-device-width: 1360px) {
   body {
     background: #111111;
     background-size: 1280px 1024px;
@@ -265,7 +265,7 @@ body,
     color: #ffffff;
   }
 }
-@media screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
   p {
     text-align: center;
   }
