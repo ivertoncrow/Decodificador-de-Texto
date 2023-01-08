@@ -119,15 +119,14 @@ body,
     color: #ffffff;
     padding: 3em;
     text-transform: uppercase;
-    resize: none;
-    flex-direction: column;
+    resize: none; 
   }
 
   #mensagem {
     background: #222222;
     border: none;
     border-radius: 1em;
-    width: 40em;
+    width: 38em;
     height: 24em;
     transform: none;
   }
@@ -136,7 +135,7 @@ body,
     background: #444444;
     border: none;
     border-radius: 1em;
-    width: 40em;
+    width: 38em;
     height: 24em;
     transform: none;
   }
