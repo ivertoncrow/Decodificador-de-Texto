@@ -96,7 +96,7 @@ body,
     font-weight: bold;
   }
 }
-@media screen and (min-device-width: 1500px) and (max-device-width: 1900px) {
+@media screen and (min-device-width: 1361px) and (max-device-width: 1900px) {
   body {
     background: #111111;
     background-size: 1920px 1080px;
@@ -112,7 +112,7 @@ body,
   /* Main */
 
   main {
-    margin: 5em 0 0 4%;
+    margin: 5em 0 0 3%;
   }
 
   textarea {
@@ -183,7 +183,7 @@ body,
     color: #ffffff;
   }
 }
-@media screen and (min-device-width: 1030px) and (max-device-width: 1500px) {
+@media screen and (min-device-width: 1030px) and (max-device-width: 1360px) {
   body {
     background: #111111;
     background-size: 1280px 1024px;
