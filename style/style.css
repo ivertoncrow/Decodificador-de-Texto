@@ -303,11 +303,13 @@ body,
   #mensagem {
     background: #222222;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #solucao {
     background: #444444;
+    text-align: center;
+    font-size: 3rem;
   }
 
   textarea::placeholder {
