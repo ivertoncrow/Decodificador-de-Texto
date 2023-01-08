@@ -1,0 +1,349 @@
+body,
+#mensagem,
+#solucao,
+.botoesprincipais {
+  font-family: "Ubuntu", sans-serif;
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 2440px) {
+  body {
+    background: #111111;
+    background-size: 1920px 1080px;
+  }
+
+  /* Header */
+
+  img {
+    margin: 2em 0 0 2em;
+    width: 10em;
+  }
+
+  /* Main */
+
+  main {
+    margin: 5em 0 0 16%;
+  }
+
+  textarea {
+    color: #ffffff;
+    padding: 3em;
+    text-transform: lowercase;
+    resize: none;
+    flex-direction: column;
+  }
+
+  #mensagem {
+    background: #222222;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  #solucao {
+    background: #444444;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  textarea::placeholder {
+    color: #aaaaaa;
+  }
+
+  .caixas {
+    display: inline-block;
+    margin-left: 2em;
+    text-align: left;
+  }
+
+  .botoesprincipais {
+    margin: 1em 2em 0 0;
+    border: none;
+    padding: 0.5em 6%;
+    vertical-align: bottom;
+    border-radius: 0.5em;
+    background: #0295a8;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+
+  .botoesprincipais:hover {
+    opacity: 0.5;
+    transition: 600ms;
+  }
+
+  .botoesprincipais:active {
+    background: #02a876;
+    opacity: 1;
+    transition: 100ms;
+  }
+  /* footer */
+
+  .copyright {
+    margin: 11em 0 2rem;
+    vertical-align: bottom;
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+@media screen and (min-device-width: 1360px) and (max-device-width: 1919px) {
+  body {
+    background: #111111;
+    background-size: 1920px 1080px;
+  }
+
+  /* Header */
+
+  img {
+    margin: 2em 0 0 2em;
+    width: 8em;
+  }
+
+  /* Main */
+
+  main {
+    margin: 5em 0 0 4%;
+  }
+
+  textarea {
+    color: #ffffff;
+    padding: 3em;
+    text-transform: uppercase;
+    resize: none;
+    flex-direction: column;
+  }
+
+  #mensagem {
+    background: #222222;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  #solucao {
+    background: #444444;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  textarea::placeholder {
+    color: #aaaaaa;
+  }
+
+  .caixas {
+    display: inline-block;
+    margin-left: 2em;
+    text-align: left;
+  }
+
+  .botoesprincipais {
+    margin: 1em 2em 0 0;
+    border: none;
+    padding: 0.5em 6%;
+    vertical-align: bottom;
+    border-radius: 0.5em;
+    background: #0295a8;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .botoesprincipais:hover {
+    opacity: 0.5;
+    transition: 600ms;
+  }
+
+  .botoesprincipais:active {
+    background: #02a876;
+    opacity: 1;
+    transition: 100ms;
+  }
+  /* footer */
+
+  .copyright {
+    margin: 11em 0 2rem;
+    vertical-align: bottom;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (min-device-width: 1030px) and (max-device-width: 1359px) {
+  body {
+    background: #111111;
+    background-size: 1280px 1024px;
+  }
+
+  /* Header */
+
+  img {
+    margin: 2em 0 0 2em;
+    width: 8em;
+  }
+
+  /* Main */
+
+  main {
+    margin: 5em 0 5em 15em;
+  }
+
+  textarea {
+    color: #ffffff;
+    padding: 3em;
+    text-transform: uppercase;
+    resize: none;
+    flex-direction: column;
+  }
+
+  #mensagem {
+    background: #222222;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  #solucao {
+    background: #444444;
+    border: none;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    transform: none;
+  }
+
+  textarea::placeholder {
+    color: #aaaaaa;
+  }
+
+  .caixas {
+    display: inline-block;
+    margin-left: 2em;
+    text-align: center;
+  }
+
+  .botoesprincipais {
+    margin: 2em 0;
+    border: none;
+    padding: 0.5em 6%;
+    vertical-align: bottom;
+    border-radius: 0.5em;
+    background: #0295a8;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .botoesprincipais:active {
+    background: #02a876;
+    opacity: 1;
+    transition: 100ms;
+  }
+  /* footer */
+
+  .copyright {
+    margin: 11em 0 2rem;
+    vertical-align: bottom;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (max-device-width: 1024px) {
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: inline-block;
+    width: 40%;
+  }
+
+  header {
+    display: inline-block;
+    margin: 3rem;
+  }
+
+  body {
+    background: #111111;
+  }
+
+  textarea {
+    display: block;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 2rem;
+    text-transform: uppercase;
+    resize: none;
+    border: none;
+    border-radius: 2rem;
+    width: 864px;
+    height: 564px;
+    transform: none;
+    font-size: large;
+    margin: auto;
+  }
+
+  #mensagem {
+    background: #222222;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #solucao {
+    background: #444444;
+  }
+
+  textarea::placeholder {
+    color: #aaaaaa;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .botoesprincipais {
+    margin: 2rem 0rem;
+    border: none;
+    padding: 2rem 10%;
+    vertical-align: bottom;
+    border-radius: 2rem;
+    background: #0295a8;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .botoesprincipais:active {
+    background: #02a876;
+    opacity: 1;
+    transition: 100ms;
+  }
+
+  div > div {
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 5em 0 2rem;
+    vertical-align: bottom;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 3em;
+  }
+}
