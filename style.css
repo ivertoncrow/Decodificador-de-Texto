@@ -1,0 +1,178 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+}
+
+button:active {
+  background-color: #b507e0;
+}
+
+#textInput,
+#textOutput {
+  background-color: #965ca5;
+}
+
+textarea::placeholder {
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+@media only screen and (max-device-width: 700px) {
+  p,
+  .divCentralizada {
+    text-align: center;
+  }
+
+  img {
+    margin: 2rem auto 0 auto;
+    width: 35%;
+  }
+
+  textarea {
+    border-radius: 2rem;
+    border: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 80%;
+    resize: none;
+    margin: 1rem 0;
+  }
+
+  textarea,
+  textarea::placeholder,
+  p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  button {
+    margin: 0.2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0.3rem 1rem;
+    margin-inline: 0.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #73038f;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 1280px) {
+  p,
+  .divCentralizada {
+    text-align: center;
+  }
+
+  img {
+    margin: 2rem auto 0 auto;
+    width: 25%;
+  }
+
+  #logoHeader {
+    text-align: left;
+    margin: 3rem 6rem;
+  }
+
+  textarea {
+    border-radius: 2rem;
+    border: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 80%;
+    height: 30rem;
+    resize: none;
+    margin: 1rem 0;
+  }
+
+  textarea,
+  textarea::placeholder,
+  p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  button {
+    margin: 0.2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0.5rem 2.5rem;
+    margin-inline: 0.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #73038f;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding-top: 8rem;
+  }
+}
+
+@media only screen and (min-device-width: 1281px) {
+
+  img{
+    width: 13%;
+    margin: 2rem 0 0 2rem;
+  }
+  section {
+    width:100%;
+    margin: 2rem 1.2%;
+  }
+
+  article {
+    width: 48%;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+
+  textarea {
+    border-radius: 2rem;
+    border: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 94%;
+    height: 30rem;
+    resize: none;
+    margin: 1rem 0;
+  }
+
+  button {
+    margin: 0.2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0.5rem 2.5rem;
+    margin-inline: 0.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #73038f;
+    font-size: 1.4rem;
+  }
+
+  textarea,
+  textarea::placeholder,
+  p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10rem 0 3rem 0 ;
+  }
+}

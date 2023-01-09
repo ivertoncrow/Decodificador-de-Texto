@@ -1,5 +1,5 @@
 function criptografar() {
-  let inputText = document.getElementById("mensagem").value;
+  let inputText = document.getElementById("textInput").value;
   let textArea = inputText;
 
   let resultadoCript = textArea
@@ -9,11 +9,11 @@ function criptografar() {
     .replace(/o/gi, "ober")
     .replace(/u/gi, "ufat");
 
-  document.getElementById("solucao").innerHTML = resultadoCript;
+  document.getElementById("textOutput").innerHTML = resultadoCript;
 }
 
 function descriptografar() {
-  let inputText = document.getElementById("mensagem").value;
+  let inputText = document.getElementById("textInput").value;
   let textArea = inputText;
 
   let resultadoDescript = textArea
@@ -23,13 +23,13 @@ function descriptografar() {
     .replace(/ober/gi, "o")
     .replace(/ufat/gi, "u");
 
-  document.getElementById("solucao").innerHTML = resultadoDescript;
+  document.getElementById("textOutput").innerHTML = resultadoDescript;
 }
 
 function copiar() {
-  let copyTexto = document.getElementById("solucao");
+  let copyTexto = document.getElementById("textOutput");
   let resultado = "";
   copyTexto.select();
   document.execCommand("copy");
-  document.getElementById("solucao").innerHTML = resultado;
+  document.getElementById("textOutput").innerHTML = resultado;
 }

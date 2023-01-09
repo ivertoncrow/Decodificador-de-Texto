@@ -2,69 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./reset.css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style/style.css" />
-
-    <title>Decodificador</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
-      <p><img src="./src/Criptografia2.png" alt="logo" /></p>
+      <div id="logoHeader" class="divCentralizada">
+        <img src="./src/Criptografia2.png" alt="cadeado" />
+      </div>
     </header>
-
     <main>
-      <section class="area">
-        <div class="caixas">
-          <textarea
-            name="mensagem"
-            id="mensagem"
-            placeholder="Digite o texto com todas as letras minusculas e sem acentos"
-            required
-            autofocus
-          ></textarea>
-          <div class="botoesmobile">
-            <button
-              onclick="criptografar()"
-              id="cript"
-              class="botoesprincipais"
-            >
-              criptografar
+      <section>
+        <article>
+          <div class="divCentralizada">
+            <textarea
+              id="textInput"
+              cols="30"
+              rows="10"
+              placeholder="Digite seu texto aqui"
+            ></textarea>
+          </div>
+          <div class="divCentralizada">
+            <button id="botoesPrincipais" onclick="criptografar()">
+              Criptografar
             </button>
-            <button
-              onclick="descriptografar()"
-              id="decript"
-              class="botoesprincipais"
-            >
-              descriptografar
+            <button id="botoesPrincipais" onclick="descriptografar()">
+              Descriptografar
             </button>
           </div>
-        </div>
-        <div class="caixas">
-          <textarea
-            name="solucao"
-            id="solucao"
-            placeholder="Solução"
-            readonly
-          ></textarea>
-          <div class="botoesmobile">
-            <button onclick="copiar()" id="copiar" class="botoesprincipais">
-              copiar
-            </button>
+        </article>
+        <article id="output">
+          <div class="divCentralizada">
+            <textarea
+              id="textOutput"
+              cols="30"
+              rows="10"
+              placeholder="Solução"
+              readonly
+            ></textarea>
           </div>
-        </div>
+          <div class="divCentralizada">
+            <button id="botoesPrincipais" onclick="copiar()">Copiar</button>
+          </div>
+        </article>
       </section>
     </main>
     <script type="text/javascript" src="./script/script.js" defer></script>
     <footer>
-      <div>
-        <p class="copyright">&copy;2022 CodeCrow</p>
-      </div>
+      <p>&copy;CodeCrow</p>
     </footer>
   </body>
 </html>
