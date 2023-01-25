@@ -2,56 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Decodificador</title>
   </head>
-  <body>
-    <header>
-      <div id="logoHeader" class="divCentralizada">
-        <img src="./src/Criptografia2.png" alt="cadeado" />
+  <body class="body-container">
+    <header class="header">
+      <div class="div-img">
+        <img src="./src/Criptografia.png" alt="logo" id="logo" />
       </div>
     </header>
-    <main>
-      <section>
-        <article>
-          <div class="divCentralizada">
-            <textarea
-              id="textInput"
-              cols="30"
-              rows="10"
-              placeholder="Digite seu texto aqui"
-            ></textarea>
-          </div>
-          <div class="divCentralizada">
-            <button id="botoesPrincipais" onclick="criptografar()">
-              Criptografar
-            </button>
-            <button id="botoesPrincipais" onclick="descriptografar()">
-              Descriptografar
-            </button>
-          </div>
-        </article>
-        <article id="output">
-          <div class="divCentralizada">
-            <textarea
-              id="textOutput"
-              cols="30"
-              rows="10"
-              placeholder="Solução"
-              readonly
-            ></textarea>
-          </div>
-          <div class="divCentralizada">
-            <button id="botoesPrincipais" onclick="copiar()">Copiar</button>
-          </div>
-        </article>
-      </section>
+
+    <main class="flex-container">
+      <div class="criptografia">
+        <div class="textarea">
+          <textarea
+            id="input"
+            placeholder="Digite com letras minúsculas e sem acento"
+          ></textarea>
+        </div>
+        <div class="div-buttons">
+          <button class="button" id="button-cripto">Criptografar</button>
+          <button class="button" id="button-descripto">Descriptografia</button>
+        </div>
+      </div>
+      <div class="descriptografia">
+        <div class="textarea">
+          <textarea
+            id="output"
+            placeholder="Solução"
+            readonly
+          ></textarea>
+        </div>
+        <div class="div-copy"><button class="button" id="button-copy">Copiar</button></div>
+      </div>
     </main>
+
     <script type="text/javascript" src="./script/script.js" defer></script>
+
     <footer>
-      <p>&copy;CodeCrow</p>
+      <div class="div-footer">
+        <div>
+          <p class="copyright">
+            Feito com ❤️ by Iverton Mello <br />&copy;2022
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
